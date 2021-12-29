@@ -1,2 +1,2 @@
 # Mathematical-machine
-The shitty programming language.
+The shitty programming language. (not allowed)
