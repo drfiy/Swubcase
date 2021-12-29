@@ -1,2 +1,2 @@
-# Mathematical-machine
-The shitty programming language. (not allowed)
+# Swubcase beta
+Just a shitty programming language.
