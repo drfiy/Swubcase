@@ -1,2 +1,2 @@
-# Swubcase beta
+# Swubcat
 Just a shitty programming language.
