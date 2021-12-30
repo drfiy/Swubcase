@@ -1,2 +1,2 @@
-# Swubcat
-Just a shitty programming language.
+# Swubcase
+wait for alpha
