@@ -15,3 +15,4 @@ class Lexer:
             pos += 1
         
         self.to_parse.append(text)
+
