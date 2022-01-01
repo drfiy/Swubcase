@@ -5,8 +5,7 @@ class Lexer:
         
         while pos < len(code):
             if code[pos] == " " or code[pos] == "\n":
-                noq = len([sym for sym in text if sym == '"'])
-                if noq % 2 == 0:
+                if len([sym for sym in text if sym == '"']) % 2 == 0:
                     self.to_parse.append(text)
                     text = ""
                     pos += 1
