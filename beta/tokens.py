@@ -9,17 +9,17 @@ types = {
     "bool": Type("bool", regex="(true|false)"),
     "arrow": Type("arrow", regex="->"),
     "objectName": Type("fun", regex="[a-z]"),
-    "operator": Type("base")
+    "base": Type("base")
 }
 
 class Token:
-    def __init__(self, exp, type=types["operator"]):
+    def __init__(self, exp, type):
         self.exp = exp
         seld.type = type
 
-operators = {
-    "plus": Token("+"),
-    "minus": Token("-"),
-    "star": Token("*"),
-    "slash": Token("/")
+base = {
+    "plus": Token("+", type=types["base"]),
+    "minus": Token("-", type=types["base"]),
+    "star": Token("*", type=types["base"]),
+    "slash": Token("/", types["base"])
 }
