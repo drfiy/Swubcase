@@ -8,7 +8,7 @@ types = {
     "str": Type("str", regex='".*"'),
     "bool": Type("bool", regex="(true|false)"),
     "arrow": Type("arrow", regex="->"),
-    "object": Type("fun", regex="[a-z]"),
+    "objectName": Type("fun", regex="[a-z]"),
     "operator": Type("base")
 }
 
