@@ -18,8 +18,8 @@ class Token:
         seld.type = type
 
 operators = {
-    "plus": "+",
-    "minus": "-",
-    "star": "*",
-    "slash": "/",
+    "plus": Token("+"),
+    "minus": Token("-"),
+    "star": Token("*"),
+    "slash": Token("/")
 }
