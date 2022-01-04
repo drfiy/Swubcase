@@ -3,6 +3,7 @@ class Type:
         self.name = name
         self.regex = regex
 
+
 types = {
     "str": Type("str", regex='".*"'),
     "num": Type("num", regex="\d*"),
