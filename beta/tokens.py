@@ -6,6 +6,7 @@ class Token:
         self.exp = exp
         self.type = type
 
+
 base_type = Type("base")
 
 base = {
