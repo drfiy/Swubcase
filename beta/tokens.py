@@ -1,17 +1,18 @@
-from types import Type
-
-
 class Token:
     def __init__(self, exp, type):
         self.exp = exp
         self.type = type
 
+class Type:
+    def __init__(self, name, regex=None):
+        self.name = name
+        self.regex = regex
 
-base_type = Type("base")
-
-base = {
-    "plus": Token("+", type=base_type),
-    "minus": Token("-", type=base_type),
-    "star": Token("*", type=base_type),
-    "slash": Token("/", type=base_type)
+types = {
+    "str": Type("str", regex='".*?"'),
+    "num": Type("num", regex="[0-9]"),
+    "bool": Type("bool", regex="(true|false)"),
+    "arrow": Type("arrow", regex="->"),
+    "op": Type("op", regex="[+*-/]"),
+    "obj": Type("obj", regex=".")
 }
