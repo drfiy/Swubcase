@@ -11,7 +11,7 @@ class Lexer:
         
         while pos < len(code):
             if code[pos] == " " or code[pos] == "\n":
-                if len([sym for sym in text if sym == '"']) % 2 == 0:
+                if len([sym for sym in text if sym == '"']) % 2 == 0 and len([sym for sym in text if sym == "["]) == len([sym for sym in text if sym == "]"]):
                     self.exps.append(text)
                     text = ""
                     pos += 1
