@@ -12,6 +12,7 @@ types = {
     "str": Type("str", regex='".*?"'),
     "num": Type("num", regex="[0-9]"),
     "bool": Type("bool", regex="(true|false)"),
+    "array": Type("array", regex="\[.*?\]"),
     "arrow": Type("arrow", regex="->"),
     "op": Type("op", regex="[+*-/]"),
     "obj": Type("obj", regex=".")
