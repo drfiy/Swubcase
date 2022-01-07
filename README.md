@@ -1,19 +1,16 @@
-## What is Swubcase?
-Swubcase is **easy-to-use** programming language that can fuck your eyes 😿
-# Sample code
-We can output hello to the terminal, we will do it using the function
-`print -> "Hello, world!"`
+# About Swubcase
+What is Swubcase? Swubcase is **easy-to-use** programming language that created for fun!
+You can use Swubcase, catch bugs and send them to our [Discord server](https://discord.gg/WzHcWwZPW2)!
+## Other
+We can output string to the terminal, using function `print`:
 
+`print -> "Hello world"`
+***
+Also, our language has more types than string. Check out them:
 
-There are types in the language
-|Type|Regex|
-|--|--|
-|str|.*?|
-|num|[0-9]
-|bool|(true|false)|
-|array|\[.*?\]|
-|arrow|->|
-|op|[+*-/]|
-|obj|.|
-# Other
-Need to support? Check out our [Discord server](https://discord.gg/WzHcWwZPW2)!
+|GName|LName|Use|
+|-|-|-|
+|String|str|"abc"|
+|Integer|num|123|
+|Boolean|bool|true/false|
+|-|arrow|->|
