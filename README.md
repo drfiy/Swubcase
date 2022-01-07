@@ -1,10 +1,10 @@
 ## What is Swubcase?
 Swubcase is **easy-to-use** programming language that can fuck your eyes 😿
 # Sample code
-We can output hello to the terminal, we will do it using the function
+* We can output hello to the terminal, we will do it using the function
 `print -> "Hello, world!"`
 
-There are types in the language
+* There are types in the language
 |Type|Regex|
 |--|--|
 |str|.*?|
