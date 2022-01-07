@@ -17,3 +17,4 @@ There are types in the language
 |obj|.|
 # Other
 Need to support? Check out our [Discord server](https://discord.gg/WzHcWwZPW2)!
+Contributors: **drfiy**, **pkeorley**
