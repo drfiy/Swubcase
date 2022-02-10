@@ -16,4 +16,4 @@ types = {
     "arrow": Type("arrow", regex="->"),
     "op": Type("op", regex="[+*-/]"),
     "obj": Type("obj", regex=".")
-}
+} # ставим лайк
