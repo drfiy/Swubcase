@@ -1,0 +1,26 @@
+{
+  "name": "swubcase",
+  "version": "1.0.0",
+  "description": "The SwubCase programming language.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drfiy/Swubcase.git"
+  },
+  "author": "Dallas && Peaky && Drfiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drfiy/Swubcase/issues"
+  },
+  "homepage": "https://github.com/drfiy/Swubcase#readme",
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
